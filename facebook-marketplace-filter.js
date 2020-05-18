@@ -93,7 +93,7 @@
         window.scrollTo(0, $(document).height());
 
         if (attempts > 5) {
-            clearInterval(interval);
+            clearInterval(intervalRemove);
         }
     }
 
